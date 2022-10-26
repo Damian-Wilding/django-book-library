@@ -1,34 +1,30 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I want to gain a better understanding for back end development so that is what this project will hopefully help me with. 
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+I followed a fellow programmers tutorial to make this so it isn't my own design. 
 
-{Describe your purpose for writing this software.}
+The project is a simple django site that lets an admin create and add books to a database and the user can look at them and their information.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/cKorKUQQhDI)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+The site has a admin login page which will take you to the admin dashboard. There you are able to create books that each have their own webpage. Those webpages are made in a template that displays the book title and other information.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This project was done using Visual Studio Code.
 
-{Describe the programming language that you used and any libraries.}
+I used Python and the Django library.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Tutorials point](https://www.tutorialspoint.com/django)
+* [Django project](https://docs.djangoproject.com/en/3.0/contents/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Firstly, I would like to fix the issue where the main website won't load without changing the ROOT_URLCONF in the settings.
+* Second, I would like to add other profiles that can be signed into instead of just the 1 admin account.
+* I'd also like to add movies to the database so that it isn't just books.
